@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>luvxanime - Watch Anime Free</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #00ffe1;
+    }
+    header h1 {
+      margin: 0;
+      color: #00ffe1;
+      font-size: 2.5em;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1em;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #00ffe1;
+    }
+    .hero {
+      background: linear-gradient(to right, #000000, #1a1a1a);
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      color: #ffffff;
+    }
+    .search-bar {
+      margin: 30px auto;
+      text-align: center;
+    }
+    .search-bar input {
+      padding: 10px;
+      width: 60%;
+      max-width: 500px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+    }
+    .section {
+      padding: 40px 20px;
+    }
+    .section h3 {
+      color: #00ffe1;
+      margin-bottom: 20px;
+      border-left: 5px solid #00ffe1;
+      padding-left: 10px;
+    }
+    .anime-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 20px;
+    }
+    .anime-card {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .anime-card:hover {
+      transform: scale(1.05);
+    }
+    .anime-card img {
+      width: 100%;
+      display: block;
+    }
+    .anime-card p {
+      padding: 10px;
+      font-size: 0.9em;
+      color: #ccc;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.8em;
+      color: #666;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>luvxanime</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Trending</a>
+      <a href="#">News</a>
+      <a href="#">Genres</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Watch Free Anime, Discover Trailers & News!</h2>
+  </section>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Search your favorite anime..." />
+  </div>
+
+  <section class="section">
+    <h3>🔥 Trending Anime</h3>
+    <div class="anime-grid">
+      <div class="anime-card">
+        <img src="https://cdn.myanimelist.net/images/anime/1208/94745.jpg" alt="Demon Slayer" />
+        <p>Demon Slayer: Kimetsu no Yaiba</p>
+      </div>
+      <div class="anime-card">
+        <img src="https://cdn.myanimelist.net/images/anime/1918/109759.jpg" alt="Jujutsu Kaisen" />
+        <p>Jujutsu Kaisen</p>
+      </div>
+      <div class="anime-card">
+        <img src="https://cdn.myanimelist.net/images/anime/1258/122326.jpg" alt="Chainsaw Man" />
+        <p>Chainsaw Man</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h3>📰 Anime News</h3>
+    <div class="anime-grid">
+      <div class="anime-card">
+        <p><strong>Bleach: TYBW Part 3</strong> confirmed for Fall 2025. Watch the teaser now!</p>
+      </div>
+      <div class="anime-card">
+        <p><strong>One Punch Man S3</strong> production in full swing — expect explosive action!</p>
+      </div>
+      <div class="anime-card">
+        <p><strong>New Studio Ghibli film</strong> announced by Hayao Miyazaki's son – coming 2026.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 luvxanime. Built for anime lovers.
+  </footer>
+</body>
+</html>
